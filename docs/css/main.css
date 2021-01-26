@@ -1269,6 +1269,10 @@ footer .box-callback  {
         padding: 55px;
         box-sizing: border-box;
     }
+    .flex-monitor p, .flex-magic p, .flex-setting p, .flex-plane p {
+        font-size: 10px;
+    }
+
     .box-icon {
         height: 800px;
     }
