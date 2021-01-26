@@ -1243,7 +1243,7 @@ footer .box-callback  {
         flex-direction: column;
         align-items: center;
         width: 70%;
-        height: 70%;
+        height: 80%;
     }
     .container-comments .flex-comments-left {
         margin-bottom: 30px;
@@ -1256,7 +1256,7 @@ footer .box-callback  {
         padding: 30px 20px;
     }
     .box-comments .container-comments {
-        transform: translateY(-12%);
+        transform: translateY(-7%);
     }
     .container-comments hr {
         margin: 5px 0;
@@ -1399,7 +1399,7 @@ footer .box-callback  {
         padding: 10px 15px;
     }
     .box-comments .container-comments {
-        transform: translateY(-14%);
+        transform: translateY(-5%);
     }
     .container-comments hr {
         margin: 7px 0;
@@ -1510,7 +1510,7 @@ footer .box-callback  {
         height: 650px;
     }
     .box-comments .container-comments {
-        transform: translateY(-7%);
+        transform: translateY(0%);
     }
     .text-lastworks h3 {
         font-size: 21px;
