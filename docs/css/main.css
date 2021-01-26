@@ -141,6 +141,8 @@ header {
     right: 0;
     width: 350px;
     border: 2px solid #d2d3d8;
+    background-color: #408ca2;
+
 }
 
 .menu_active {
@@ -1072,7 +1074,7 @@ footer .box-callback  {
     }
     .menu {
         background-color: #408ca2;
-        height: 70vh;
+        height: 75vh;
     }
     .content .wrap {
         width: 370px;
@@ -1091,7 +1093,19 @@ footer .box-callback  {
 
 @media (max-width:570px) {
     .dropmenu a {
-            font-size: 32px;
+        font-size: 32px;
+    }
+    .content .wrap {
+        width: 270px;
+    }
+    .wrap h2 {
+        font-size: 18px;
+        text-indent: 20px;
+        line-height: 55px;
+    }
+    .wrap p {
+        font-size: 10px;
+        line-height: 30px;
     }
 }
 
