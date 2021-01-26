@@ -1096,11 +1096,11 @@ footer .box-callback  {
         font-size: 32px;
     }
     .content .wrap {
-        width: 270px;
+        width: 240px;
     }
     .wrap h2 {
-        font-size: 8px;
-        text-indent: 8px;
+        font-size: 14px;
+        text-indent: 15px;
         line-height: 50px;
     }
     .wrap p {
