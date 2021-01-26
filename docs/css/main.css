@@ -1187,6 +1187,8 @@ footer .box-callback  {
     .input-btn {
         width: 130px;
         height: 37px;
+        margin-left: 60%;
+        margin-top: 25%;
     }
     .input-btn input {
         font-size: 14px;
