@@ -486,8 +486,8 @@ header {
 
 .box-comments .container-comments {
     display: flex;
-    width: 1175px;
-    height: 550px;
+    width: 70%;
+    height: 70%;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -508,8 +508,10 @@ header {
 }
 .flex-comments-left .comments-left,
 .flex-comments-right .comments-right {
-    width: 505px;
+    width: 100%;
     height: 425px;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .comments-left h3,
@@ -1006,6 +1008,13 @@ footer .box-callback  {
         line-height: 10vh;
         height: 100%;
 }
+.container-comments .flex-comments-left, .container-comments .flex-comments-right {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.flex-comments-left h3, .flex-comments-right h3 {
+    padding-bottom: 40px;
+}
 
 }
 
@@ -1028,6 +1037,12 @@ footer .box-callback  {
     .flex-monitor, .flex-magic, .flex-setting, .flex-plane {
         flex: 0;
         flex-basis: 220px;
+    }
+    .flex-comments-left h3, .flex-comments-right h3 {
+        padding-bottom: 25px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold, .comments-left .normal-text, .comments-right .normal-text {
+        padding-bottom: 8px;
     }
     
 }
@@ -1071,6 +1086,19 @@ footer .box-callback  {
     .container-icon .flex-icon {
         max-width: 950px;
     }
+    .flex-comments-left .comments-left, .flex-comments-right .comments-right {
+        position: relative;
+        top: -5%;
+    }
+    .comments-left h3, .comments-right h3 {
+        font-size: 22px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold {
+        font-size: 15px;
+    }
+    .comments-left p, .comments-left .normal-text, .comments-right p, .comments-right .normal-text {
+        font-size: 13px;
+    }
 
 }
 
@@ -1111,6 +1139,27 @@ footer .box-callback  {
         height: 220px;
         margin: 0 50px;
     }
+    .container-comments hr {
+        margin: 8px 0;
+    }
+    .flex-comments-left h3, .flex-comments-right h3 {
+        padding-bottom: 15px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold, .comments-left .normal-text, .comments-right .normal-text {
+        padding-bottom: 6px;
+    }
+    .comments-left h3, .comments-right h3 {
+        font-size: 18px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold {
+        font-size: 13px;
+    }
+    .comments-left p, .comments-left .normal-text, .comments-right p, .comments-right .normal-text {
+        font-size: 11px;
+    }
+    
+
+
 
 }
 
@@ -1175,7 +1224,45 @@ footer .box-callback  {
         margin-bottom: 25px;
         height: 22px;
     }
-    
+    .box-comments .container-comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+    }
+    .container-comments .flex-comments-left {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .flex-comments-left .comments-left, .flex-comments-right .comments-right {
+        position: relative;
+        top: 0;
+        height: 340px;
+        padding: 30px 20px;
+    }
+    .box-comments .container-comments {
+        transform: translateY(-12%);
+    }
+    .container-comments hr {
+        margin: 5px 0;
+    }
+    .flex-comments-left h3, .flex-comments-right h3 {
+        padding-bottom: 8px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold, .comments-left .normal-text, .comments-right .normal-text {
+        padding-bottom: 4px;
+    }
+    .comments-left h3, .comments-right h3 {
+        font-size: 14px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold {
+        font-size: 12px;
+    }
+    .comments-left p, .comments-left .normal-text, .comments-right p, .comments-right .normal-text {
+        font-size: 10px;
+    }
+
 }
 
 
@@ -1284,6 +1371,41 @@ footer .box-callback  {
         font-size: 10px;
         line-height: 0px;
     }
+    .container-comments .flex-comments-left {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .flex-comments-left .comments-left, .flex-comments-right .comments-right {
+        position: relative;
+        top: 0;
+        height: 340px;
+        padding: 10px 15px;
+    }
+    .box-comments .container-comments {
+        transform: translateY(-14%);
+    }
+    .container-comments hr {
+        margin: 7px 0;
+    }
+    .flex-comments-left h3, .flex-comments-right h3 {
+        padding-bottom: 4px;
+        line-height: 12px;
+        text-align: center;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold, .comments-left .normal-text, .comments-right .normal-text {
+        padding-bottom: 4px;
+    }
+    .comments-left h3, .comments-right h3 {
+        font-size: 12px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold {
+        font-size: 10px;
+    }
+    .comments-left p, .comments-left .normal-text, .comments-right p, .comments-right .normal-text {
+        font-size: 8px;
+    }
+
+
 }
 
 
@@ -1300,6 +1422,26 @@ footer .box-callback  {
     .aboutme .text-top-about {
         margin: 10px 0;
     }
+    .comments-left h3, .comments-right h3 {
+        line-height: 18px;
+    }
+    .comments-left .normal-bold, .comments-right .normal-bold {
+        line-height: 15px;
+    }
+    .comments-left p, .comments-left .normal-text, .comments-right p, .comments-right .normal-text {
+        line-height: 15px;
+    }
+    .flex-comments-left .comments-left, .flex-comments-right .comments-right {
+        height: 275px;
+        padding: 15px 0;
+    }
+    .box-comments {
+        height: 650px;
+    }
+    .box-comments .container-comments {
+        transform: translateY(-7%);
+    }
+
 
 
 }
