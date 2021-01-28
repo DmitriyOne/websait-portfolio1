@@ -1429,11 +1429,12 @@ footer .box-callback  {
     }
     .input-btn-bottom {
         margin-top: 6%;
-        width: 140px;
+        width: 115px;
         height: 40px;
     }
     .input-btn-bottom input {
         font-size: 14px;
+        padding: 0;
     }
     .container-contacts p, .container-contacts a {
         margin: 10px 0 10px 20px;
@@ -1444,9 +1445,15 @@ footer .box-callback  {
     .contacts-mid a {
         margin-bottom: -16px;
     }
-
-
-
+    .inputs .text-input {
+        height: 40px;
+    }
+    .container-massage .massage-left {
+        flex-basis: 45%;
+    }
+    .inputs input, textarea {
+        font-size: 12px;
+    }
 
 }
 
@@ -1693,7 +1700,7 @@ footer .box-callback  {
         width: 70%;
     }
     .container-contacts p, .container-contacts a {
-        margin: 0px 0px -10px 10px;
+        margin: 0px 0px -10px 15px;
     }
 
 
