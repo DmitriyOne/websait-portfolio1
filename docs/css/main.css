@@ -1687,13 +1687,13 @@ footer .box-callback  {
         font-size: 18px;
     }
     .container-massage .massage-left {
-        width: 85%;
+        width: 90%;
     }
     .container-massage .container-contacts {
-        width: 60%;
+        width: 70%;
     }
     .container-contacts p, .container-contacts a {
-        margin: 0px 0px -10px 20px;
+        margin: 0px 0px -10px 10px;
     }
 
 
