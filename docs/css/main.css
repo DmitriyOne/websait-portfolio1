@@ -1435,6 +1435,17 @@ footer .box-callback  {
     .input-btn-bottom input {
         font-size: 14px;
     }
+    .container-contacts p, .container-contacts a {
+        margin: 10px 0 10px 20px;
+    }
+    .container-contacts h3 {
+        padding: 10px 0 10px 20px;
+    }
+    .contacts-mid a {
+        margin-bottom: -16px;
+    }
+
+
 
 
 }
@@ -1657,15 +1668,33 @@ footer .box-callback  {
         margin-top: 10%;
     }
     .container-contacts h3 {
-        padding: 10px 0 10px 20px;
         font-size: 18px;
         line-height: 18px;
     }
     .container-contacts p, .container-contacts a {
-        margin: 10px 0 10px 20px;
         font-size: 10px;
         line-height: 18px;
     }
+    .input-btn-bottom {
+        width: 90px;
+        height: 35px;
+    }
+    .input-btn-bottom input {
+        font-size: 12px;
+    }
+    .inputs h3 {
+        font-size: 18px;
+    }
+    .container-massage .massage-left {
+        width: 85%;
+    }
+    .container-massage .container-contacts {
+        width: 60%;
+    }
+    .container-contacts p, .container-contacts a {
+        margin: 10px 0px;
+    }
+
 
 
 
@@ -1760,6 +1789,9 @@ footer .box-callback  {
     }
     .quote-footer span {
         font-size: 12px;
+    }
+    .input-btn-bottom {
+        margin-top: 17%;
     }
 
 }
