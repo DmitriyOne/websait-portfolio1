@@ -573,6 +573,8 @@ header {
     width: 1180px;
     height: 725px;
     box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .container-lastworks .container-text-top {
