@@ -625,7 +625,7 @@ header {
     display: flex;
     height: 275px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .flex-line1 div {
@@ -637,20 +637,20 @@ header {
 .flex-line1 div:nth-child(1) {
     flex: 1;
     background-color: #10c6fc;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .flex-line1 div:nth-child(2) {
     flex: 1;
     background-color: #835aeb;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .flex-line1 div:nth-child(3),
 .flex-line2 .small-box {
     flex: 1;
     background-color: #002453;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 
@@ -660,7 +660,7 @@ header {
 
 .flex-line2 .big-box {
     flex: 2.056;
-    margin-right: 15px;
+    margin-right: 10px;
     background-color: #835aeb;
 }
 
@@ -1301,6 +1301,17 @@ footer .box-callback  {
         justify-content: center;
         padding: 0 10px;
     }
+    /* footer */
+    footer {
+        height: 140px;
+    }
+    .box-callback .container-img {
+        margin-top: 15%;
+    }
+    .box-callback .cotirate p {
+        font-size: 8px;
+        line-height: 55px;
+    }
     
 }
 
@@ -1702,6 +1713,26 @@ footer .box-callback  {
     .container-contacts p, .container-contacts a {
         margin: 0px 0px -10px 15px;
     }
+        /* footer */
+        footer {
+            height: 80px;
+        }
+        .box-callback .container-img {
+            margin-left: 25px;
+            margin-top: 6%;
+        }
+        .box-callback .img-footer {
+            width: 30px;
+            height: 20px;
+        }
+        .img-footer img {
+            height: 8px;
+        }
+        .box-callback .cotirate p {
+            font-size: 6px;
+            line-height: 40px;
+        }
+    
 
 
 
