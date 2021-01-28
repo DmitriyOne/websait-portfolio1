@@ -573,8 +573,8 @@ header {
     width: 1180px;
     height: 725px;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .container-lastworks .container-text-top {
@@ -1670,6 +1670,7 @@ footer .box-callback  {
     .container-contacts h3 {
         font-size: 18px;
         line-height: 18px;
+        padding-bottom: 20px;
     }
     .container-contacts p, .container-contacts a {
         font-size: 10px;
@@ -1692,7 +1693,7 @@ footer .box-callback  {
         width: 60%;
     }
     .container-contacts p, .container-contacts a {
-        margin: 10px 0px;
+        margin: 0px 0px -10px 20px;
     }
 
 
