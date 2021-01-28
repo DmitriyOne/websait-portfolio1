@@ -702,7 +702,7 @@ header {
 } 
 
 .quoter-header blockquote::before {
-    content: "&#8220;";
+    content: "\2018";
     display: block;
     position: absolute;
     top: -15%;
