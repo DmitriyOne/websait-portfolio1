@@ -1604,7 +1604,7 @@ footer .box-callback  {
         width: 90%;
     }
     .quoter-header blockquote::before {
-        top: -10%;
+        top: -25%;
         font-size: 180px;
     }
     .container-quoter .quote-footer {
