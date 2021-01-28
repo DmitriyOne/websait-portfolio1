@@ -702,7 +702,7 @@ header {
 } 
 
 .quoter-header blockquote::before {
-    content: "\2018";
+    content: "\201d";
     display: block;
     position: absolute;
     top: -15%;
@@ -712,6 +712,7 @@ header {
     color: #002453;
     opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
