@@ -702,13 +702,10 @@ header {
     color: #000;
 } 
 
-.quoter-header div {
-    position: relative;
-}
 
 .quoter-header div::before {
     content: "\201c";
-    position: absolute;
+    position: relative;
     top: 5%;
     left: -1%;
     height: 19px;
@@ -1818,7 +1815,6 @@ footer .box-callback  {
     .quoter-header div::before {
         height: 50px;
         top: 10%;
-        font-size: 80px;
     }
     .container-quoter .quote-footer {
         width: 90%;
