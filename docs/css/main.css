@@ -694,10 +694,6 @@ header {
     position: relative;
 
 }
-.quoter-header blockquote {
-    quotes: auto;
-
-}
 
 .quoter-header blockquote p {
     position: relative;
