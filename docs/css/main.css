@@ -697,7 +697,7 @@ header {
 
 .quoter-header blockquote p {
     position: relative;
-    top: 80px;
+    top: 100px;
     font-family: 'robotoregular';
     font-size: 16px;
     line-height: 28px;
@@ -708,9 +708,9 @@ header {
     content: "\201c";
     display: block;
     position: absolute;
-    top: -15%;
-    left: -2%;
-    height: 40px;
+    top: -5%;
+    left: -1%;
+    height: 19px;
     font-size: 200px;
     color: #002453;
     opacity: 0.5;
@@ -1667,7 +1667,7 @@ footer .box-callback  {
         height: 370px;
     }
     .container-quoter .quoter-header {
-        height: 60%;
+        height: 65%;
     }
     
     .box-quote .container-quoter {
@@ -1815,7 +1815,7 @@ footer .box-callback  {
         width: 90%;
     }
     .quoter-header blockquote::before {
-        top: -10%;
+        top: 10%;
         font-size: 120px;
     }
     .container-quoter .quote-footer {
