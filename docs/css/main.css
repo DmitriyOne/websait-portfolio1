@@ -676,17 +676,21 @@ header {
     width: 100%;
     height: 705px;
     background-color: #64cbc0;
+    overflow: hidden;
 }
 
 .box-quote .container-quoter {
     width: 500px;
     height: 470px;
+    box-sizing: border-box;
     margin: 125px 0 0 200px;
 }
 
 
 .container-quoter .quoter-header {
     width: 100%;
+    height: 55%;
+    box-sizing: border-box;
     position: relative;
 
 }
@@ -700,7 +704,7 @@ header {
     color: #000;
 } 
 
-.quoter-header::before {
+.quoter-header::after {
     content: "\201c";
     position: absolute;
     top: 5%;
