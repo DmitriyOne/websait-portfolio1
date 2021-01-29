@@ -715,6 +715,7 @@ header {
     opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 99;
+    margin-bottom: 100px;
 
 }
 
