@@ -1232,6 +1232,7 @@ footer .box-callback  {
         margin-top: 0px;
     }
     .quoter-header p::before {
+        padding-top: 20px;
         font-size: 190px;
     }
     .box-quote {
@@ -1814,6 +1815,7 @@ footer .box-callback  {
         width: 90%;
     }
     .quoter-header p::before {
+        padding-top: 20px;
         width: 100px;
         height: 80px;
         top: -15%;
