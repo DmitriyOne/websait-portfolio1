@@ -715,8 +715,6 @@ header {
     opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 99;
-    margin-bottom: 100px;
-
 }
 
 
@@ -1815,10 +1813,12 @@ footer .box-callback  {
     .container-quoter .quoter-header {
         width: 90%;
     }
-    .quoter-header::before {
-        height: 50px;
-        top: 10%;
+    .quoter-header p::before {
+        width: 100px;
+        height: 80px;
+        top: -15%;
         font-size: 80px;
+        border: 1px solid red;
     }
     .container-quoter .quote-footer {
         width: 90%;
