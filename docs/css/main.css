@@ -696,7 +696,8 @@ header {
 }
 
 .quoter-header blockquote p {
-    padding-top: 90px;
+    position: relative;
+    top: 80px;
     font-family: 'robotoregular';
     font-size: 16px;
     line-height: 28px;
@@ -1219,7 +1220,6 @@ footer .box-callback  {
     }
     /* block6 */
     .quoter-header blockquote p {
-        padding-top: 75px;
         font-family: 'robotoregular';
         font-size: 14px;
         line-height: 28px;
@@ -1678,7 +1678,6 @@ footer .box-callback  {
         margin: 0;
     }
     .quoter-header blockquote p {
-        padding-top: 60px;
         font-size: 12px;
         line-height: 26px;
     }
