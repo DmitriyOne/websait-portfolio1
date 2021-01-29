@@ -702,10 +702,13 @@ header {
     color: #000;
 } 
 
+.quoter-header div {
+    position: relative;
+}
 
 .quoter-header div::before {
     content: "\201c";
-    position: relative;
+    position: absolute;
     top: 5%;
     left: -1%;
     height: 19px;
