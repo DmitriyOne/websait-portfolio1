@@ -707,6 +707,7 @@ header {
 
 .quoter-header p::before {
     content: "\201c";
+    overflow: visible;
     position: absolute;
     top: -15%;
     left: -1%;
