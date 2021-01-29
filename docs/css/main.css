@@ -704,8 +704,10 @@ header {
     color: #000;
 
 } 
+    
 
-.quoter-header p::before {
+
+/* .quoter-header p::before {
     content: "\00ab";
     overflow: visible;
     position: absolute;
@@ -716,7 +718,7 @@ header {
     opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 99;
-}
+} */
 
 
 .container-quoter .quote-footer {
@@ -1232,9 +1234,9 @@ footer .box-callback  {
     .quote-footer img {
         margin-top: 0px;
     }
-    .quoter-header p::before {
+    /* .quoter-header p::before {
         font-size: 190px;
-    }
+    } */
     .box-quote {
         display: flex;
         justify-content: center;
@@ -1814,13 +1816,13 @@ footer .box-callback  {
     .container-quoter .quoter-header {
         width: 90%;
     }
-    .quoter-header p::before {
+    /* .quoter-header p::before {
         width: 100px;
         height: 80px;
         top: -35%;
         font-size: 80px;
         border: 1px solid red;
-    }
+    } */
     .container-quoter .quote-footer {
         width: 90%;
         height: 35%;
