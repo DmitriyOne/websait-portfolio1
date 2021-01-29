@@ -705,7 +705,7 @@ header {
 } 
 
 .quoter-header::before {
-    content: "\0022";
+    content: "\201c";
     position: absolute;
     top: 5%;
     left: -1%;
