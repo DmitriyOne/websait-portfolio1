@@ -691,12 +691,10 @@ header {
     width: 100%;
     height: 55%;
     box-sizing: border-box;
-    position: relative;
 
 }
 
 .quoter-header blockquote p {
-    position: relative;
     top: 100px;
     font-family: 'robotoregular';
     font-size: 16px;
@@ -704,7 +702,11 @@ header {
     color: #000;
 } 
 
-.quoter-header::before {
+.quoter-header div {
+    position: relative;
+}
+
+.quoter-header div::before {
     content: "\201c";
     position: absolute;
     top: 5%;
@@ -999,6 +1001,7 @@ footer .box-callback  {
 
 
 
+
 @media (max-width: 1550px) {
     .menu {
         height: 10vh;
@@ -1230,7 +1233,7 @@ footer .box-callback  {
     .quote-footer img {
         margin-top: 0px;
     }
-    .quoter-header blockquote p::before {
+    .quoter-header div::before {
         font-size: 190px;
     }
     .box-quote {
@@ -1812,7 +1815,7 @@ footer .box-callback  {
     .container-quoter .quoter-header {
         width: 90%;
     }
-    .quoter-header::before {
+    .quoter-header div::before {
         height: 50px;
         top: 10%;
         font-size: 80px;
