@@ -704,11 +704,11 @@ header {
     color: #000;
 } 
 
-.quoter-header blockquote::before {
+.quoter-header::before {
     content: "\201c";
     display: block;
     position: absolute;
-    top: -5%;
+    top: 5%;
     left: -1%;
     height: 19px;
     font-size: 200px;
@@ -1814,7 +1814,7 @@ footer .box-callback  {
     .container-quoter .quoter-header {
         width: 90%;
     }
-    .quoter-header blockquote::before {
+    .quoter-header::before {
         top: 10%;
         font-size: 120px;
     }
