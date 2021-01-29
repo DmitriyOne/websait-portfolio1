@@ -708,9 +708,8 @@ header {
 .quoter-header p::before {
     content: "\201c";
     position: absolute;
-    top: 5%;
+    top: -15%;
     left: -1%;
-    height: 19px;
     font-size: 200px;
     color: #002453;
     opacity: 0.5;
