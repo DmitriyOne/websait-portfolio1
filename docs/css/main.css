@@ -704,7 +704,7 @@ header {
     color: #000;
 } 
 
-.quoter-header span::before {
+.quoter-header blockquote::before {
     content: "\201c";
     display: block;
     position: absolute;
@@ -1813,6 +1813,10 @@ footer .box-callback  {
     }
     .container-quoter .quoter-header {
         width: 90%;
+    }
+    .quoter-header blockquote::before {
+        top: 10%;
+        font-size: 120px;
     }
     .container-quoter .quote-footer {
         width: 90%;
